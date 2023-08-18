@@ -1,0 +1,5 @@
+<meta>
+	<info author="jack9267" description="Very basic default gamemode." />
+
+	<script src="server.js" type="server" language="javascript" />
+</meta>
