@@ -10,7 +10,7 @@
 	<serverbrowser>true</serverbrowser>
 	<maxplayers>32</maxplayers>
 	<password></password>
-	<minclientversion>1.5.0</minclientversion>
+	<minclientversion>1.6.0</minclientversion>
 	<duplicatenames>false</duplicatenames>
 
 	<!-- Networking -->
@@ -45,30 +45,13 @@
 
 	<!-- Global CVars -->
 	<!-- https://wiki.gtaconnected.com/CVars -->
-	<cvar name="nametags" value="1" />
-	<cvar name="gunshops" value="1" />
-	<cvar name="uniquestuntjumps" value="1" />
-	<cvar name="stuntjumps" value="1" />
-	<cvar name="stauntontoiletcamera" value="1" />
-	<cvar name="gates" value="1" />
-	<cvar name="trains" value="1" />
-	<cvar name="planes" value="1" />
-	<cvar name="maximumwantedlevel" value="6" />
-	<cvar name="defaultparkedcars" value="1" />
-	<cvar name="ambulances" value="1" />
 	<cvar name="traffic" value="1" />
 	<cvar name="civilians" value="1" />
-	<cvar name="defaultpickups" value="1" />
-	<cvar name="singleplayer" value="1" />
-	<cvar name="bigmap" value="1" />
-	<cvar name="iv_playerwalking" value="0" />
-	<cvar name="iv_scenariopeds" value="1" />
-	<cvar name="iv_randomcops" value="1" />
 
 	<!-- Rules -->
 	<!-- https://wiki.gtaconnected.com/ServerRules -->
 	<rule name="Owner" value="Nobody" />
-	<rule name="Website" value="https://gtaconnected.com" />
+	<rule name="Website" value="https://gtaconnected.com/" />
 
 	<!-- Resources -->
 	<!-- https://wiki.gtaconnected.com/Resources -->
