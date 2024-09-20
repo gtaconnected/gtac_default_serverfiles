@@ -10,18 +10,16 @@
 	<serverbrowser>true</serverbrowser>
 	<maxplayers>32</maxplayers>
 	<password></password>
-	<minclientversion>1.3.0</minclientversion>
+	<minclientversion>1.5.0</minclientversion>
 	<duplicatenames>false</duplicatenames>
 
 	<!-- Networking -->
 	<port>22000</port>
 	<httpport>22000</httpport>
 	<httpserver>true</httpserver>
+	<streaminterval>1000</streaminterval>
 	<syncinterval>30</syncinterval>
-	<processinterval>30</processinterval>
 	<syncmethod>interval</syncmethod>
-	<compresspackets>false</compresspackets>
-	<packetcompressionlevel>default</packetcompressionlevel>
 	<synclocalentities>true</synclocalentities>
 
 	<!-- Element Streaming -->
@@ -38,7 +36,7 @@
 	<!-- https://wiki.gtaconnected.com/Resources/GTAIV/GameModes -->
 	<!-- https://wiki.gtaconnected.com/Resources/GTAIV/Episodes -->
 	<iv_gamemode>8</iv_gamemode>
-	<iv_episode>0</iv_episode>
+	<iv_episode>-1</iv_episode>
 
 	<!-- Modules -->
 	<!-- https://wiki.gtaconnected.com/Modules -->
@@ -66,10 +64,6 @@
 	<cvar name="iv_playerwalking" value="0" />
 	<cvar name="iv_scenariopeds" value="1" />
 	<cvar name="iv_randomcops" value="1" />
-	<cvar name="iv_sptraffic" value="1" />
-	<cvar name="iv_spcopmodels" value="1" />
-	<cvar name="iv_spbulletspread" value="1" />
-	<cvar name="iv_skiplobby" value="1" />
 
 	<!-- Rules -->
 	<!-- https://wiki.gtaconnected.com/ServerRules -->
